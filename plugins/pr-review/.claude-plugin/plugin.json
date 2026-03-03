@@ -1,7 +1,7 @@
 {
-    "name": "commit",
+    "name": "pr-review",
     "version": "1.0.0",
-    "description": "Stage and commit all current changes using Conventional Commits.",
+    "description": "Review pull requests and suggest improvements.",
     "author": {
         "name": "hahan",
         "email": "hanvietha141@gmail.com"
