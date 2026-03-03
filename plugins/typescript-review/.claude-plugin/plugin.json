@@ -1,0 +1,9 @@
+{
+    "name": "typescript-review",
+    "version": "1.0.0",
+    "description": "Review TypeScript code and suggest improvements.",
+    "author": {
+        "name": "hahan",
+        "email": "hanvietha141@gmail.com"
+    }
+}

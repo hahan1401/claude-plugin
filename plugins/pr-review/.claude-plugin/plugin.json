@@ -1,0 +1,9 @@
+{
+    "name": "commit",
+    "version": "1.0.0",
+    "description": "Stage and commit all current changes using Conventional Commits.",
+    "author": {
+        "name": "hahan",
+        "email": "hanvietha141@gmail.com"
+    }
+}

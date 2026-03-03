@@ -1,0 +1,30 @@
+{
+  "name": "hahan-plugins-marketplace",
+  "version": "1.0.0",
+  "displayName": "Code Review & Commit Suite",
+  "description": "Three AI-powered skills for TypeScript review, pull request review, and quality-gated commits — all following Conventional Commits.",
+  "owner": {
+    "name": "hahan",
+    "email": "hanvietha141@gmail.com"
+  },
+  "license": "MIT",
+  "categories": ["code-review", "git", "github", "typescript"],
+  "tags": ["review", "commit", "pr", "typescript", "quality", "security"],
+  "plugins": [
+    {
+      "name": "commit",
+      "source": "./plugins/commit",
+      "description": "Stage and commit all current changes using Conventional Commits. Runs /pr-review, /typescript-review, and /simplify as pre-commit quality gates. Blocks on Critical findings; asks for acknowledgement on Major findings."
+    },
+    {
+      "name": "pr-review",
+      "source": "./plugins/pr-review",
+      "description": "Review an open GitHub pull request. Fetches the diff via gh CLI, analyzes changes across correctness, security, test coverage, and breaking changes, then outputs a structured review table. Optionally posts the review as a GitHub comment."
+    },
+    {
+      "name": "typescript-review",
+      "source": "./plugins/typescript-review",
+      "description": "Perform a thorough TypeScript-specific code review covering type safety, generics, async patterns, React/TSX specifics, performance, and common TS anti-patterns. Outputs a structured findings table and optionally a CSV report."
+    }
+  ]
+}
