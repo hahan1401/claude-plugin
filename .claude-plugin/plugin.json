@@ -1,0 +1,5 @@
+{
+  "name": "review-and-merge",
+  "version": "1.0.0",
+  "description": "AI-powered code review, commit, PR creation, and merge workflow"
+}
