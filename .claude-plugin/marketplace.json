@@ -27,8 +27,8 @@
       "description": "Perform a thorough TypeScript-specific code review covering type safety, generics, async patterns, React/TSX specifics, performance, and common TS anti-patterns. Outputs a structured findings table and optionally a CSV report."
     },
     {
-      "name": "greet",
-      "source": "./plugins/greet",
+      "name": "greet-from-plugin",
+      "source": "./plugins/greet-from-plugin",
       "description": "Greet the user by name with a warm, friendly message. Invoke via /greet [name] or trigger naturally when the user says hello."
     }
   ]

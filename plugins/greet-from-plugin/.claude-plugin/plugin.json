@@ -1,5 +1,5 @@
 {
-    "name": "greet",
+    "name": "greet-from-plugin",
     "version": "1.0.0",
     "description": "Greet the user by name with a friendly message.",
     "author": {
