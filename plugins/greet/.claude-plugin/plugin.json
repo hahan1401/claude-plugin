@@ -1,0 +1,9 @@
+{
+    "name": "greet",
+    "version": "1.0.0",
+    "description": "Greet the user by name with a friendly message.",
+    "author": {
+        "name": "hahan",
+        "email": "hanvietha141@gmail.com"
+    }
+}
